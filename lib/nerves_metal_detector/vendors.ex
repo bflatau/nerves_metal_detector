@@ -4,24 +4,25 @@ defmodule NervesMetalDetector.Vendors do
   alias NervesMetalDetector.Vendors
 
   @vendors [
-    Vendors.AdafruitUs,
-    Vendors.BerryBaseDe,
-    Vendors.BuyzeroDe,
-    Vendors.KubiiFr,
-    Vendors.McHobbyBe,
-    Vendors.MeloperoIt,
-    Vendors.PimoroniUk,
-    Vendors.PiShopCa,
-    Vendors.PiShopCh,
-    Vendors.PiShopUs,
-    Vendors.RasppishopDe,
-    Vendors.ReicheltDe,
-    Vendors.SeeedStudioCn,
-    Vendors.SemafAt,
-    Vendors.SparkfunUs,
-    Vendors.ThePiHutUk,
-    Vendors.TiendatecEs,
-    Vendors.WelectronDe
+    # Vendors.AdafruitUs,
+    # Vendors.BerryBaseDe,
+    # Vendors.BuyzeroDe,
+    Vendors.DigikeyUs
+    # Vendors.KubiiFr,
+    # Vendors.McHobbyBe,
+    # Vendors.MeloperoIt,
+    # Vendors.PimoroniUk,
+    # Vendors.PiShopCa,
+    # Vendors.PiShopCh,
+    # Vendors.PiShopUs,
+    # Vendors.RasppishopDe,
+    # Vendors.ReicheltDe,
+    # Vendors.SeeedStudioCn,
+    # Vendors.SemafAt,
+    # Vendors.SparkfunUs,
+    # Vendors.ThePiHutUk,
+    # Vendors.TiendatecEs,
+    # Vendors.WelectronDe
   ]
 
   @vendor_items @vendors |> Enum.map(& &1.vendor_info())
